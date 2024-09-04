@@ -22,7 +22,7 @@
 .toggle input[type="checkbox"]:checked ~ label {
   background: url("../images/icon-moon.svg") no-repeat;
   filter: invert(100%) sepia(56%) saturate(0%) hue-rotate(241deg)
-    brightness(111%) contrast(100%);
+    brightness(51%) contrast(100%);
 }
 
 .toggle input[type="checkbox"]:checked {
@@ -41,9 +41,11 @@
 }
 
 .dark {
-  color: #a5a5a5;
+  font-weight: bold;
+  color: #0f0d0d;
 }
 
 .light {
+  font-weight: bold;
   color: #ffffff;
 }
